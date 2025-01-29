@@ -19,7 +19,7 @@ function lagrangeInterpolation(points) {
     return Math.round(c);
 }
 function main() {
-    const data = JSON.parse(fs.readFileSync('input.json', 'utf8'));
+    const data = JSON.parse(fs.readFileSync('input2.json', 'utf8'));
     const n = data.keys.n;
     const k = data.keys.k;
     let points = [];
